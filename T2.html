@@ -1,0 +1,418 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Imovel Mediacao venda de apartamentos em Praia|CABO VEDE</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mr Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+<!-- animated-css -->
+<script src="js/modernizr.js"></script>
+<script>
+    $(document).ready(function(){
+        if (Modernizr.touch) {
+            // show the close overlay button
+            $(".close-overlay").removeClass("hidden");
+            // handle the adding of hover class when clicked
+            $(".branch-gd").click(function(e){
+                if (!$(this).hasClass("hover")) {
+                    $(this).addClass("hover");
+                }
+            });
+            // handle the closing of the overlay
+            $(".close-overlay").click(function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if ($(this).closest(".branch-gd").hasClass("hover")) {
+                    $(this).closest(".branch-gd").removeClass("hover");
+                }
+            });
+        } else {
+            // handle the mouseenter functionality
+            $(".branch-gd").mouseenter(function(){
+                $(this).addClass("hover");
+            })
+            // handle the mouseleave functionality
+            .mouseleave(function(){
+                $(this).removeClass("hover");
+            });
+        }
+    });
+</script>
+<script src="js/bootstrap.min.js"></script>
+<style>
+	
+
+	/* Estilizando o submenu */
+	.submenu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background-color: #444;
+		min-width: 150px;
+	}
+	.submenu li {
+		display: block;
+	}
+	.submenu li a {
+		padding: 10px;
+		color: white;
+	}
+	.submenu li:hover {
+		background-color: #666;
+	}
+
+	/* Mostrar submenu ao passar o mouse */
+	li:hover .submenu {
+		display: block;
+	}
+</style>
+
+<script>
+	function toggleMenu() {
+		document.getElementById("menu-list").classList.toggle("open");
+	}
+	
+	document.querySelectorAll(".submenu-toggle").forEach(item => {
+		item.addEventListener("click", function (event) {
+			event.preventDefault();
+			let parent = this.parentElement;
+			parent.classList.toggle("active");
+	
+			// Garantir que todos os submenus fiquem visíveis
+			let submenu = parent.querySelector(".submenu");
+			if (parent.classList.contains("active")) {
+				submenu.style.display = "block";
+			} else {
+				submenu.style.display = "none";
+			}
+		});
+	});
+	</script>
+	
+	
+
+</head>
+<body>
+<!--header-top start here-->
+<div class="top-header">
+	<div class="container">
+		<div class="top-header-main">
+			<div class="col-md-4 top-social wow bounceInLeft" data-wow-delay="0.3s">
+			    <ul>
+					<li><h5>Siga-nos:</h5></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100086180414750" target="_blank" aria-label="Facebook">
+						<img src="images/fac24.png" alt="Facebook">
+					</a></li>
+					
+					<li><a href="https://www.instagram.com/imovelmediacaoservicos/" target="_blank" aria-label="Instagram">
+						<img src="images/inst24.png" alt="Instagram">
+					</a></li>
+				
+					<li><a href="https://wa.me/9790305" target="_blank" class="mi-contact-methods-block__link">					
+							<img src="images/what24.png"  alt="WhatsApp">
+					
+					</a></li>
+				</ul>
+				
+			</div>
+			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
+				<ul>					
+					<li><img src="images/phone-call_5070407 (1).png"> </span> <h6>(238) 9 79 03 05</h6></li>
+					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+				</ul>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header-top end here-->
+<!--header start here-->
+	<!-- NAVBAR
+		================================================== -->
+<div class="header">
+	<div class="fixed-header">	
+
+		    <div class="navbar-wrapper">
+		      <div class="container">
+		        <nav class="navbar navbar-inverse navbar-static-top">
+		             <div class="navbar-header">
+			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			                <span class="sr-only">Toggle navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			              </button>
+			              <div class="logo wow slideInLeft" data-wow-delay="0.3s">
+			                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+			              </div>
+			          </div>
+		            <div id="navbar" class="navbar-collapse collapse">
+		            <nav class="cl-effect-16" id="cl-effect-16">
+		              <ul class="nav navbar-nav">
+		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
+							<li class="dropdown">
+								<a href="#">Apartamentos a venda ▾</a>
+								<ul class="submenu">
+									<li><a href="room.html" data-hover="T1">T1</a></li>
+						           <li><a href="T2.html" data-hover="T2">T2</a></li>							
+						           <li><a href="T3.html" data-hover="T3">T3</a>
+								   </ul>							
+						</li>
+						<li><a href="about.html" data-hover="About">About</a></li>
+						<li><a href="contact.html" data-hover="Contact">Contact</a></li>						
+		              </ul>
+		            </nav>
+
+		            </div>
+		            <div class="clearfix"> </div>
+		             </nav>
+		          </div>
+		           <div class="clearfix"> </div>
+		    </div>
+	 </div>
+</div>
+<!--header end here-->
+<!--room start here-->
+<div class="rooms">
+	<div class="container">
+		<div class="rooms-main">
+			 <div class="room-head">
+			 	<h3>Apartamento T2</h3>
+			 </div>
+			 <div class="single-top wow bounceInLeft" data-wow-delay="0.3s">
+			<img class="img-responsive wow fadeInUp animated" data-wow-delay=".5s" src="images/Edbreeze/T2 3 piso tras/entrada2.png" alt="" />
+				<div class="lone-line">
+					<h1> 
+					   <ul class="grid-blog">
+						    <li><img src="images/euro_798045.png"> </i>109 000 </a></li>
+							<li><img src="images/metroq.png"> </i>100 m</a></li>
+							<li><img src="images/garage_1.png"> </i>1 vaga</a></li>
+						</ul>
+						</h1>	
+					
+						<p class="wow fadeInLeft animated" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+						<span>
+						</span></p>
+				</div>
+		</div>
+					
+				 
+</div>
+		</div>
+				<!--gallery start here-->
+<div class="gallery" id="gallery">
+	<div class="container">
+	  <div class="gallery-main wow zoomIn" data-wow-delay="0.3s">
+	  	<div class="gallery-top">
+	  		<h1>FOTOS</h1>
+	  	</div>
+		<div class="gallery-bott">
+			<div class="col-md-4 col1 gallery-grid">
+				<a href="images/Edbreeze/T2 3 piso tras/salacuzinha1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/salacuzinha1.jpg" alt="">
+							<figcaption>
+								<h4 class="gal"> Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+					</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/sala1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/sala1.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/sala.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/sala.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+			     <div class="col-md-4 col1 gallery-grid">
+				  <a href="images/Edbreeze/T2 3 piso tras/quarto.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/quarto.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+					</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/quarto2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/quarto2.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/casabanho.jpg"rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/casabanho.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+				  <a href="images/Edbreeze/T2 3 piso tras/casabanho1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/casabanho1.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+					</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/casabanho2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/casabanho2.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+					<div class="col-md-4 col1 gallery-grid">
+						<a href="images/Edbreeze/T2 3 piso tras/cuzinha.jpg"rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<figure class="effect-bubba">
+							<img class="img-responsive" src="images/Edbreeze/T2 3 piso tras/cuzinha.jpg" alt="">
+							<figcaption>
+								<h4 class="gal">Nemo voluptatem</h4>
+								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
+							</figcaption>			
+						</figure>
+						</a>
+					</div>
+			     <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--gallery end here-->
+    
+	
+
+
+
+
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery-grid a').Chocolat();
+		});
+		</script>
+
+<!--room end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<div class="col-md-3 ftr-grid wow zoomIn" data-wow-delay="0.3s">
+				<div class="ftr-logo">
+				<img src="images/ftr-logo.png"  alt="">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+				<a href="single.html" class="ftr-btn">Read More</a>
+			</div>
+			<div class="col-md-3 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
+				 <h3>Nos endereço</h3>
+				 <span class="ftr-line flm"> </span>
+				<p>Praia - Cabo Verde</p>
+				<p>Palmarejo Praça Center (Imerio)</p>
+				<p>CoWorking by Prime</p>
+				<h6>(238) 9 79 03 05 / 5 28 94 69</h6>
+				
+				
+			</div>
+			<div class="col-md-3 ftr-grid ftr-rit wow zoomIn" data-wow-delay="0.3s">
+				<h3>Contact Us</h3>
+				  <ul class="ftr-icons">
+				 	<ul>
+						<li><a href="https://www.facebook.com/profile.php?id=100086180414750" target="_blank" aria-label="Facebook">
+							<img src="images/fac24.png" alt="Facebook">
+						</a></li>
+						
+						<li><a href="https://www.instagram.com/imovelmediacaoservicos/" target="_blank" aria-label="Instagram">
+							<img src="images/inst24.png" alt="Instagram">
+						</a></li>
+					
+						<li><a href="https://wa.me/9790305" target="_blank" class="mi-contact-methods-block__link">					
+								<img src="images/what24.png"  alt="WhatsApp">
+						
+						</a></li>
+					</ul>
+
+					<h6>imovelmediacaoservicos@gmail.com</h6>
+			</div>
+			<div class="col-md-3 ftr-grid ftr-last-gd ftr-rit wow zoomIn" data-wow-delay="0.3s">
+				 <h3>Quick Link</h3>
+				  <ul class="ftr-nav">
+				 	<li><a href="index.html">Home</a></li>
+				 	<li><a href="about.html">About</a></li>
+				 	<li><a href="services.html">Services </a></li>
+				 	<li><a href="room.html">Rooms</a></li>
+				 	<li><a href="contact.html">Contact</a></li>
+				 </ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+<!--copy rights start here-->
+<div class="copy-right">
+	<div class="container">
+		 <div class="copy-rights-main wow zoomIn" data-wow-delay="0.3s">
+    	    <p>© 2025 All Rights Reserved | Leonardo Baessa</p>
+    	 </div>
+    </div>
+</div>
+</body>
+</html>
